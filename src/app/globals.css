@@ -2,6 +2,23 @@
 @tailwind components;
 @tailwind utilities;
 
+
+@font-face {
+  font-family: 'Rye';
+  src: url('/fonts/Rye-regular.woff') format('woff2'),
+  url('/fonts/Rye-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Libre Bodoni';
+  src: url('/fonts/libreBodoni-regular.woff2') format('woff2'),
+  url('/fonts/libreBodoni-regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
