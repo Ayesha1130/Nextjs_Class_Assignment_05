@@ -9,13 +9,13 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
+        background: "black",
         foreground: "var(--foreground)",
       },
       fontFamily: {
-        rye: ["Rye", "cursive"],
-      },
-      libre: ['"Libre Bodoni"', 'serif']
+        rubik : ['"Rubik"']
+      }
+
     },
   },
   plugins: [],
