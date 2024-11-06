@@ -20,17 +20,28 @@ export default function Home() {
           </button>
         </div>
         <div className="flex-1 mt-6 lg:mt-0 flex justify-center lg:justify-end py-16">
-        <div className="relative w-[421.38px] h-auto max-w-full lg:h-[500px]">
+        <div className="relative max-w-[421.38px] h-auto w-full lg:h-[500px]">
           <Image
             src={"/images/hero.png"}
             alt="Manzzari necklace"
             width={421.38}
             height={400}
-            className=" max-w-full h-auto "
+            className=" max-w-full h-auto "  
           />
-        </div>
-      </div>
-    </div>
-    </div>
-  );
-}
+
+           <div className="absolute top-20 right-0 bottom-20 left-0 md:bottom-10 lg:bottom-0 xl:bottom-10 flex justify-center items-center">
+            <Image
+            src={"/images/layer.png"}
+            alt="layer"
+            width={380.1}
+            height={525.43}
+            className="object-contain w-[95%] md:w-[80%] lg:w-[90%] xl-[70%]"
+            />
+           </div>
+         </div>
+         </div>
+         
+         </div>
+         </div>
+         );
+         }
