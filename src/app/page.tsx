@@ -6,7 +6,7 @@ export default function Home() {
     <div className="h-screen">
       <Navbar />
 
-      <div className=" flex flex-col lg:flex-row items-center justify-between px-4  max-w-screen-lg mx-auto ">
+      <div className=" flex flex-col lg:flex-row items-center justify-between px-4  max-w-screen-lg mx-auto py-10">
         <div className="flex-1 text-center lg:text-left space-y-6   lg:w-[50%]">
           <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold lg:w-[596px] lg:h-[189px] leading-snug">
             IMPECCABLE CRAFTSMANSHIP AND FINESSE
@@ -19,7 +19,7 @@ export default function Home() {
             Explore Now
           </button>
         </div>
-        <div className="flex-1 mt-6 lg:mt-0 flex justify-center lg:justify-end py-16">
+        <div className="flex-1 mt-6 lg:mt-0 flex justify-center lg:justify-end py-10">
         <div className="relative max-w-[421.38px] h-auto w-full lg:h-[500px]">
           <Image
             src={"/images/hero.png"}
@@ -29,13 +29,13 @@ export default function Home() {
             className=" max-w-full h-auto "  
           />
 
-           <div className="absolute top-20 right-0 bottom-20 left-0 md:bottom-10 lg:bottom-0 xl:bottom-10 flex justify-center items-center">
+           <div className="absolute top-20  right-0 bottom-20 left-0 md:bottom-0 lg:bottom-0 xl:bottom-0 flex justify-center items-center">
             <Image
             src={"/images/layer.png"}
             alt="layer"
             width={380.1}
             height={525.43}
-            className="object-contain w-[95%] md:w-[80%] lg:w-[90%] xl-[70%]"
+            className="object-contain w-[95%] md:w-[80%] lg:w-[90%] xl-[70%] "
             />
            </div>
          </div>
